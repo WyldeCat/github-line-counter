@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+
+  "name": "Github line counter",
+  "description": "This extension counting number of lines",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": ["https://www.google.co.kr/*"],
+      "js": ["myscript.js"]
+    }
+  ]
+}
